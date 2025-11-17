@@ -1,0 +1,14 @@
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\bin\Debug\net8.0\DoctorManagement.DAL.deps.json
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\bin\Debug\net8.0\DoctorManagement.DAL.runtimeconfig.json
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\bin\Debug\net8.0\DoctorManagement.DAL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\bin\Debug\net8.0\DoctorManagement.DAL.pdb
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.csproj.AssemblyReference.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.AssemblyInfoInputs.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.AssemblyInfo.cs
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.csproj.CoreCompileInputs.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\refint\DoctorManagement.DAL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.pdb
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\DoctorManagement.DAL.genruntimeconfig.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.DAL\obj\Debug\net8.0\ref\DoctorManagement.DAL.dll

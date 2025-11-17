@@ -1,0 +1,17 @@
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.BLL.deps.json
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.BLL.runtimeconfig.json
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.BLL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.BLL.pdb
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.DAL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\bin\Debug\net8.0\DoctorManagement.DAL.pdb
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.csproj.AssemblyReference.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.AssemblyInfoInputs.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.AssemblyInfo.cs
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.csproj.CoreCompileInputs.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorMa.15C68E27.Up2Date
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\refint\DoctorManagement.BLL.dll
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.pdb
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\DoctorManagement.BLL.genruntimeconfig.cache
+D:\.net preojects backend\DoctorManagement\DoctorManagement.BLL\obj\Debug\net8.0\ref\DoctorManagement.BLL.dll
