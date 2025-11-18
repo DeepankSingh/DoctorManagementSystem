@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%);
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+p {
+  display: none;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1), 0 1px 8px rgba(0, 0, 0, 0.06);
+  max-width: 800px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12), 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.p-3 {
+  padding: 2.5rem;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.card h4 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #667eea;
+  letter-spacing: -0.025em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+.form-control {
+  padding: 0.875rem 1.125rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #2d3748;
+  background-color: #f7fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  width: 100%;
+}
+
+.form-control:hover {
+  border-color: #cbd5e0;
+  background-color: #fff;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+}
+
+select.form-control {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%232d3748' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 16px;
+  padding-right: 3rem;
+}
+
+select.form-control option {
+  padding: 0.5rem;
+}
+
+input[type="date"].form-control {
+  cursor: pointer;
+}
+
+input[type="date"].form-control::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+
+input[type="date"].form-control::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
+.btn {
+  padding: 0.875rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  outline: none;
+  min-width: 120px;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-success {
+  background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(72, 187, 120, 0.3);
+}
+
+.btn-success:hover {
+  background: linear-gradient(135deg, #38a169 0%, #2f855a 100%);
+  box-shadow: 0 6px 16px rgba(72, 187, 120, 0.4);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #718096;
+  color: white;
+  box-shadow: 0 4px 12px rgba(113, 128, 150, 0.3);
+}
+
+.btn-secondary:hover {
+  background-color: #4a5568;
+  box-shadow: 0 6px 16px rgba(113, 128, 150, 0.4);
+  transform: translateY(-2px);
+}
+
+.mt-2 {
+  margin-top: 1.5rem;
+}
+
+.ms-2 {
+  margin-left: 1rem;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .card {
+    border-radius: 12px;
+  }
+
+  .p-3 {
+    padding: 1.5rem;
+  }
+
+  .card h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 0.75rem;
+  }
+
+  .ms-2 {
+    margin-left: 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: slideIn 0.4s ease-out;
+}
+
+.mb-2 {
+  animation: slideIn 0.5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.mb-2:nth-child(1) { animation-delay: 0.05s; }
+.mb-2:nth-child(2) { animation-delay: 0.1s; }
+.mb-2:nth-child(3) { animation-delay: 0.15s; }
+.mb-2:nth-child(4) { animation-delay: 0.2s; }
+.mb-2:nth-child(5) { animation-delay: 0.25s; }
+.mb-2:nth-child(6) { animation-delay: 0.3s; }
+.mb-2:nth-child(7) { animation-delay: 0.35s; }
+.mb-2:nth-child(8) { animation-delay: 0.4s; }

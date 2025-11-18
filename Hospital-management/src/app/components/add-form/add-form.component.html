@@ -1,0 +1,84 @@
+<p>add-form works!</p>
+
+
+<!-- Add Doctor Form -->
+<div *ngIf="showAddForm" class="card p-3 mt-4">
+  <h4>Add Doctor Registration</h4>
+
+  <form (ngSubmit)="submitAddForm()">
+    
+
+    <div class="mb-2">
+      <label>License Number</label>
+      <input type="text" class="form-control" [(ngModel)]="addModel.LicenseNumber" name="licenseNumber">
+    </div>
+
+    <div class="mb-2">
+      <label>Issue Date</label>
+      <input type="date" class="form-control" [(ngModel)]="addModel.IssueDate" name="issueDate">
+    </div>
+
+    <div class="mb-2">
+      <label>Expiry Date</label>
+      <input type="date" class="form-control" [(ngModel)]="addModel.ExpiryDate" name="expiryDate">
+    </div>
+
+    <div class="mb-2">
+      <label>Contact Number</label>
+      <input type="text" class="form-control" [(ngModel)]="addModel.ContactNumber" name="contactNumber">
+    </div>
+
+    <div class="mb-2">
+
+<label>Network</label>
+  <select class="form-control" [(ngModel)]="addModel.NetworkId" name="networkId"
+          (change)="onNetworkChange()">
+    <option value="">Select Network</option>
+    <option *ngFor="let n of networks" [value]="n.HospitalNetworkId">
+      {{ n.HospitalNetworkName }}
+    </option>
+  </select>
+
+
+    </div>
+
+    <div class="mb-2">
+  <label>Hospital</label>
+  <select class="form-control" [(ngModel)]="addModel.HospitalId" name="hospitalId"
+          (change)="onHospitalChange()">
+    <option value="">Select Hospital</option>
+    <option *ngFor="let h of hospitals" [value]="h.HospitalId">
+      {{ h.HospitalName }}
+    </option>
+  </select>
+</div>
+
+    <div class="mb-2">
+  <label>Department</label>
+  <select class="form-control" [(ngModel)]="addModel.DepartmentId" name="departmentId"
+          (change)="onDepartmentChange()">
+    <option value="">Select Department</option>
+    <option *ngFor="let d of departments" [value]="d.DepartmentId">
+      {{ d.DepartmentName }}
+    </option>
+  </select>
+</div>
+
+
+    <div class="mb-2">
+  <label>Doctor</label>
+  <select class="form-control" [(ngModel)]="addModel.DoctorId" name="doctorId">
+    <option value="">Select Doctor</option>
+    <option *ngFor="let doc of doctors" [value]="doc.DoctorId">
+      {{ doc.DoctorName }}
+    </option>
+  </select>
+</div>
+
+<button class="btn btn-success mt-2">
+  {{ isEditMode ? 'Update' : 'Submit' }}
+</button>
+    <button class="btn btn-secondary mt-2 ms-2" (click)="closeAddForm()" type="button">Cancel</button>
+  </form>
+</div>
+
